@@ -1,0 +1,51 @@
+,Model_Name,Accuracy_Score,Confusion_Matrix,Classification_Report
+0,LogisticRegression,0.7003333333333334,"[[1669  710]
+ [ 189  432]]","              precision    recall  f1-score   support
+
+           0       0.90      0.70      0.79      2379
+           1       0.38      0.70      0.49       621
+
+    accuracy                           0.70      3000
+   macro avg       0.64      0.70      0.64      3000
+weighted avg       0.79      0.70      0.73      3000
+"
+1,DecisionTreeClassifier,0.7743333333333333,"[[1973  406]
+ [ 271  350]]","              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.85      2379
+           1       0.46      0.56      0.51       621
+
+    accuracy                           0.77      3000
+   macro avg       0.67      0.70      0.68      3000
+weighted avg       0.79      0.77      0.78      3000
+"
+2,RandomForestClassifier,0.841,"[[2147  232]
+ [ 245  376]]","              precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2379
+           1       0.62      0.61      0.61       621
+
+    accuracy                           0.84      3000
+   macro avg       0.76      0.75      0.76      3000
+weighted avg       0.84      0.84      0.84      3000
+"
+3,GradientBoostingClassifier,0.8273333333333334,"[[2052  327]
+ [ 191  430]]","              precision    recall  f1-score   support
+
+           0       0.91      0.86      0.89      2379
+           1       0.57      0.69      0.62       621
+
+    accuracy                           0.83      3000
+   macro avg       0.74      0.78      0.76      3000
+weighted avg       0.84      0.83      0.83      3000
+"
+4,AdaBoostClassifier,0.78,"[[1865  514]
+ [ 146  475]]","              precision    recall  f1-score   support
+
+           0       0.93      0.78      0.85      2379
+           1       0.48      0.76      0.59       621
+
+    accuracy                           0.78      3000
+   macro avg       0.70      0.77      0.72      3000
+weighted avg       0.83      0.78      0.80      3000
+"
